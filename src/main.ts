@@ -1,4 +1,6 @@
 import { Product } from "./Product";
+import 'bootstrap/dist/css/bootstrap.css';
+import 'bootstrap/dist/js/bootstrap.bundle';
 
 const r = new Product("alalalalla",2000,"01234567891");
 const r2 = new Product("balalala",123,"01234567891");
