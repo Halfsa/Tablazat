@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="stylesheet" href="main.scss">
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + TS</title>
+  </head>
+  <body>
+    <p>
+      <label for="name"> Név:
+        <input type="text" id="name">
+      </label>
+    </p>
+    <p>
+      <label for="price"> Ár:
+        <input type="number" id="price">
+      </label>
+    </p>
+    <p>
+      <label for="productCode"> Termékkód:
+        <input type="text" id="productCode">
+      </label>
+    </p>
+    <p id="error"></p>
+    <button id="gomb">Feltöltés</button>
+    <table id="table"></table>
+    <script type="module" src="/src/main.ts"></script>
+    
+  </body>
+</html>
